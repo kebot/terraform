@@ -8,21 +8,28 @@
   },
   "author": "Brock Whitten <brock@chloi.io>",
   "contributors": [
-    { "name": "Brock Whitten", "email": "brock@chloi.io" },
-    { "name": "Brian Donovan", "email": "donovan@squareup.com" }
+    {
+      "name": "Brock Whitten",
+      "email": "brock@chloi.io"
+    },
+    {
+      "name": "Brian Donovan",
+      "email": "donovan@squareup.com"
+    }
   ],
   "license": "MIT",
   "dependencies": {
-    "lru-cache" : "2.3.0",
-    "jade" : "0.28.2",
-    "coffee-script" : "1.6.3",
-    "ejs" : "0.8.4",
+    "lru-cache": "2.3.0",
+    "jade": "0.28.2",
+    "coffee-script": "1.6.3",
+    "ejs": "0.8.4",
     "marked": "0.2.8",
-    "less" : "1.3.3",
+    "less": "git+ssh://git@github.com:less/less.js.git#6fe11743828addd1c7d7bcf320364cc28dc21d8d",
     "stylus": "0.33.1"
   },
   "devDependencies": {
     "mocha": "1.8.2",
-    "should": "1.2.2"
+    "should": "1.2.2",
+    "less": "~1.4.2"
   }
 }
